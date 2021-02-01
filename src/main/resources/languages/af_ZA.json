@@ -1,0 +1,284 @@
+{
+  "general": {
+    "invite": {
+      "title": "Nooi my na u bediener"
+    },
+    "language": {
+      "guild_message": "Gilde taal ingestel op %s",
+      "no_args": "Verskaf asseblief 'n geldige taal vir die bot om te gebruik",
+      "user_message": "%s taal ingestel op %s"
+    },
+    "member_ban": {
+      "title": "Lid verban: %s"
+    },
+    "member_join": {
+      "title": "Lid aangesluit: %s",
+      "description": "By die bediener aangesluit",
+      "joined_at": "Lid het aangesluit by:",
+      "created_at": "Lidrekening geskep:",
+      "young_account_warn": ":warning:Waarskuwing! Hierdie rekening is minder as twee weke oud. Wees versigtig!:warning:"
+    },
+    "member_leave": {
+      "title": "Lid links: %s",
+      "description": "Verlaat die bediener",
+      "roles": "Rolle op tyd:"
+    },
+    "member_unban": {
+      "title": "Lid verbode: %s"
+    },
+    "ready": "CavenBot is nou weer aanlyn",
+    "role_add": {
+      "message": "Rol bygevoeg: %s in %s"
+    },
+    "role_remove": {
+      "message": "Verwyder rol: %s in %s"
+    },
+    "shutdown": {
+      "message": "CavenBot word afgeskakel. Ons sal in kennis stel wanneer dit weer aanlyn is"
+    }
+  },
+  "commands": {
+    "errors": {
+      "actions": {
+        "io_500": "Jammer, maar 'n onverwagte bedienerfout het voorgekom met Tenor GIF API, probeer weer 'n bietjie",
+        "io_general": "Jammer. 'N API-fout het voorgekom tydens die vind van 'n gif",
+        "io": "Jammer. Kon nie 'n gif vind nie"
+      },
+      "ban": {
+        "cant_interact": "U het nie toestemming om hierdie lid te verbied nie",
+        "no_args": "Gee 'n gebruiker / gebruikers-ID en 'n rede vir hierdie opdrag"
+      },
+      "destiny": {
+        "io": "Jammer. Ek kon nie Xur se voorraad ophaal nie. Iets het verkeerd geloop",
+        "no_item_info": "Ek kon nie die artikelinligting van Xur se voorraad kry nie",
+        "vendor_not_here": "Kan nie Xur se voorraad kry nie. Xur is nog nie hier nie, want sy wil is nie sy eie nie"
+      },
+      "kick": {
+        "cant_interact": "U het nie toestemming om hierdie lid te skop nie",
+        "no_args": "Gee 'n gebruiker / gebruikers-ID en 'n rede vir hierdie opdrag"
+      },
+      "missing_permission": "Ek het nie toestemming om dit te doen nie\n\n**Perms benodig**\n%s",
+      "no_child": "Spesifiseer 'n geldige kinderopdrag. Gebruik `m?%s help` om alle kinderopdragte te sien en hoe om dit te gebruik",
+      "no_permission": "U het nie toestemming om hierdie opdrag te gebruik nie",
+      "no_user": "Die gebruiker-ID gee nie 'n gebruiker nie. Maak seker dat dit korrek is",
+      "porn": {
+        "io": "Jammer, 'n fout het voorgekom tydens die vind van 'n video. Probeer asseblief weer later"
+      },
+      "roles": {
+        "no_args": "Voer asseblief meer argumente in",
+        "no_join_role": "Noem 'n rol vir hierdie opdrag"
+      },
+      "toggle_settings": {
+        "incorrect_arg": "U moet die korrekte argument vir hierdie opdrag kies",
+        "no_args": "U moet meer argumente by een van die instellingsopsies voeg"
+      },
+      "unban": {
+        "no_args": "Gee 'n gebruiker / gebruikers-ID en 'n rede vir hierdie opdrag"
+      }
+    },
+    "actions": {
+      "beers": {
+        "title": "Gejuig",
+        "title_mention": "Gejuig %s"
+      },
+      "beg": {
+        "title": "%s smeek",
+        "title_mention": "%s smeek %s"
+      },
+      "bite": {
+        "title": "%s byt almal",
+        "title_mention": "%s byt %s"
+      },
+      "cake": {
+        "title": "%s eet koek",
+        "title_mention": "%s voed %s"
+      },
+      "cookie": {
+        "title": "%s gee 'n koekie",
+        "title_mention": "%s gee 'n koekie aan %s"
+      },
+      "cuddle": {
+        "title": "%s knuffel almal",
+        "title_mention": "%s knuffel %s"
+      },
+      "description": "[Skakel na beeld](%s)",
+      "gif": {
+        "title": "%s gee 'n gif vir almal",
+        "no_args": "Voer asseblief 'n soekterm in. Dit kan ook meerdere woorde wees"
+      },
+      "glare": {
+        "title": "%s gluur",
+        "title_mention": "%s gluur %s aan"
+      },
+      "high_five": {
+        "title": "%s high fives almal",
+        "title_mention": "%s high fives %s"
+      },
+      "hug": {
+        "title": "%s omhels almal",
+        "title_mention": "%s drukkies %s"
+      },
+      "kiss": {
+        "title": "%s soen almal",
+        "title_mention": "%s soen vir %s"
+      },
+      "lick": {
+        "title": "%s lek almal",
+        "title_mention": "%s lek vir %s"
+      },
+      "pat": {
+        "title": "%s klop almal",
+        "title_mention": "%s klop vir %s"
+      },
+      "poke": {
+        "title": "%s steek almal",
+        "title_mention": "%s steek %s"
+      },
+      "punch": {
+        "title": "%s slaan almal met die vuis",
+        "title_mention": "%s slaan %s met die vuis"
+      },
+      "sass": {
+        "title": "%s maak almal lastig",
+        "title_mention": "%s verpes %s"
+      },
+      "shank": {
+        "title": "%s steek almal",
+        "title_mention": "%s steek %s"
+      },
+      "slap": {
+        "title": "%s klap almal",
+        "title_mention": "%s klap vir %s"
+      }
+    },
+    "anon": {
+      "blacklist": {
+        "message": "Swartlys %s uit die anon-opdragte"
+      },
+      "no_anon": {
+        "message": "Lid %s mag nie meer die anon-opdragte uithaal nie"
+      },
+      "remove_blacklist": {
+        "message": "%s van die anon-swartlys verwyder"
+      }
+    },
+    "destiny": {
+      "xur": {
+        "title": "Xur se inventaris",
+        "description": "Xur se inventaris vir die naweek van "
+      }
+    },
+    "misc": {
+      "dice": {
+        "critical_fail": "%s het 'n d%d gerol. Hulle het 'n %d gekry. Dit is 'n kritieke mislukking!",
+        "nat_20": "%s het 'n d%d gerol. Hulle het 'n nat 20 gekry!",
+        "normal": "%s het 'n d%d gerol. Hulle het 'n %d gekry"
+      },
+      "joined_guilds": {
+        "message": "Ek is tans in %d bedieners"
+      },
+      "reminder": {
+        "add": "Herinnering bygevoeg vir %s",
+        "no_args": "Ek kan u nie daaraan herinner om niks te doen nie",
+        "no_reminders": "Gelukkige jy. U het geen aanmanings nie",
+        "remove": "Onthounota verwyder: %s vir %s",
+        "remove_no_args": "Ek kan nie 'n herinnering verwyder sonder 'n nommer nie",
+        "view": "Aanmanings vir %s"
+      },
+      "review": {
+        "title": "Hersien my"
+      },
+      "support_server": {
+        "title": "Nooi na die ondersteuningsbediener"
+      },
+      "uptime": {
+        "message": "Die huidige tyd is: %dd: %dh: %dm: %ds"
+      }
+    },
+    "moderation": {
+      "audit": {
+        "message": "Ouditlêers sal na die %s gestuur word"
+      },
+      "ban": {
+      	"is_self": "Ek kan myself nie verbied nie",
+      	"message": "Lid verban"
+      },
+      "edit_welcome": {
+        "message": "Welkomboodskap verander na: \"%s\""
+      },
+      "kick": {
+        "is_self": "Ek kan myself nie skop nie",
+        "message": "Lid geskop",
+        "reason": "Rede: %s",
+        "title": "Lid geskop: %s"
+      },
+      "server_info": {
+        "created_at": "Geskep op: %s",
+        "members": {
+          "title": "Lede",
+          "value": "Daar is %d lede in die bedienertotaal\n**Werklike lede:** %d\n**Bots:** %d"
+        },
+        "roles": {
+          "title": "Rolle",
+          "value": "Daar is %d rolle in die bediener"
+        },
+        "boosters": {
+          "title": "Boosters",
+          "value": "%d mense het 'n hupstoot gegee\nDie bediener is op vlak %s"
+        }
+      },
+      "toggle_settings": {
+        "audit_disable": "Ouditboodskappe is gedeaktiveer",
+        "audit_enable": "Ouditboodskappe is geaktiveer",
+        "welcome_disable": "Welkomboodskappe is gedeaktiveer",
+        "welcome_enable": "Welkomboodskappe is geaktiveer"
+      },
+      "unban": {
+        "message": "Lid ontban"
+      },
+      "warn": {
+        "title": "%s gewaarsku",
+        "message": "%s is gewaarsku"
+      },
+      "welcome": {
+        "message": "Welkomboodskappe sal na die %s gestuur word"
+      }
+    },
+    "nsfw": {
+      "dom_or_sub": {
+        "dom": "%s is 'n dom",
+        "sub": "%s is 'n sub"
+      },
+      "punishment": {
+        "description": "U straf is: %s",
+        "duration": {
+          "title": "Duur",
+          "spanking": "%s smakke",
+          "hours": "%s ure",
+          "days": "%s dae",
+          "edges": "%s rande",
+          "ruins": "%s ruïnes",
+          "nothing": "Niks wat jy regtig goed was nie",
+          "punishment": "Straf"
+        },
+        "title": "%s's Straf"
+      },
+      "toy": {
+        "title": "%s's Speelding",
+        "description": "Jou speelding is: %s"
+      }
+    },
+    "roles": {
+      "add_dm": "Rol bygevoeg %s in %s",
+      "add_message": "Reaksie bygevoeg",
+      "dm_disable": "Rol-DM-instellings vir die bediener is gedeaktiveer",
+      "dm_enable": "Rol-DM-instellings vir die bediener geaktiveer",
+      "join_role_disable": "Sluit rol aan vir die bediener",
+      "join_role_enable": "Sluit aan by rol%s vir die bediener :warning:**Opmerking: slegs een rol kan vir die bediener ingestel word**",
+      "remove_dm": "Verwyder rol: %s in %s",
+      "remove_message": "Reaksie verwyder",
+      "toggle_disable": "%d rolle opgedateer om uit te skakel",
+      "toggle_enable": "%d rolle opgedateer om in te skakel"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+    id 'org.springframework.boot' version '2.4.1'
+	id 'io.spring.dependency-management' version '1.0.10.RELEASE'
+}
+
+task stage(dependsOn: ['build', 'clean']) {
+	doLast {
+		delete fileTree(dir: "build", exclude: "libs")
+		delete fileTree(dir: "build/libs", exclude: "*.jar")
+	}
+}
+build.mustRunAfter clean
+
+mainClassName = 'com.dragons0u1.Main'
+
+version = '1.0'
+
+repositories {
+    jcenter()
+    maven { url 'https://jitpack.io' }
+    maven { url 'https://dl.bintray.com/sargunv/maven' }
+}
+
+dependencies {
+    implementation 'io.github.cdimascio:dotenv-java:2.2.0'
+    implementation 'org.mongodb:mongodb-driver-sync:4.1.0'
+    implementation 'com.jagrosh:jda-utilities:3.0.4'
+    implementation 'net.dv8tion:JDA:4.2.0_211'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation group: 'me.duncte123', name: 'botCommons', version: 'BETA_2.0.110'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'club.minnced:discord-webhooks:0.5.0'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.13.3'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.13.3'
+}
+
+compileJava.options.encoding = 'UTF-8'

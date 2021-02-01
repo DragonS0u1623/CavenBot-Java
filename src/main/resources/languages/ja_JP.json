@@ -1,0 +1,284 @@
+{
+  "general": {
+    "invite": {
+      "title": "サーバーに招待してください"
+    },
+    "language": {
+      "guild_message": "ギルド言語を%sに設定",
+      "no_args": "ボットが使用する有効な言語を入力してください",
+      "user_message": "%sの言語を%sに設定"
+    },
+    "member_ban": {
+      "title": "メンバー禁止: %s"
+    },
+    "member_join": {
+      "title": "メンバーが参加しました: %s",
+      "description": "サーバーに参加しました",
+      "joined_at": "に参加したメンバー:",
+      "created_at": "作成されたメンバーアカウント:",
+      "young_account_warn": ":warning:警告！ このアカウントは2週間前のものです。 注意してください！:warning:"
+    },
+    "member_leave": {
+      "title": "メンバーが残っています: %s",
+      "description": "サーバーを離れた",
+      "roles": "時の役割:"
+    },
+    "member_unban": {
+      "title": "禁止されていないメンバー: %s"
+    },
+    "ready": "CavenBotがオンラインに戻りました",
+    "role_add": {
+      "message": "追加された役割: %sに%s"
+    },
+    "role_remove": {
+      "message": "削除された役割: %sに%s"
+    },
+    "shutdown": {
+      "message": "CavenBotをシャットダウンしています。 オンラインになったときに通知します"
+    }
+  },
+  "commands": {
+    "errors": {
+      "actions": {
+        "io_500": "TenorGIF APIで予期しないサーバーエラーが発生しました。しばらくしてからもう一度お試しください",
+        "io_general": "ごめんなさい。 gifの検索中にAPIエラーが発生しました",
+        "io": "ごめんなさい。 GIFの検索中にエラーが発生しました"
+      },
+      "ban": {
+        "cant_interact": "このメンバーを禁止する権限がありません",
+        "no_args": "ユーザー/ユーザーIDとこのコマンドの理由を入力してください"
+      },
+      "destiny": {
+        "io": "すみません。Xurのインベントリを取得できませんでした。問題が発生しました",
+        "no_item_info": "Xurの在庫のアイテム情報を取得できませんでした",
+        "vendor_not_here": "Xurのインベントリを取得できません。 Xurはまだここにいません。彼の意志は彼のものではないからです"
+      },
+      "kick": {
+        "cant_interact": "このメンバーをキックする権限がありません",
+        "no_args": "ユーザー/ユーザーIDとこのコマンドの理由を入力してください"
+      },
+      "missing_permission": "私にはそれをする許可がありません。\n\n**必要な権限**\n%s",
+      "no_child": "有効な子コマンドを指定してください。 すべての子コマンドとその使用方法を表示するには、`m?%s help`を使用してください",
+      "no_permission": "このコマンドを使用する権限がありません",
+      "no_user": "ユーザーIDはユーザーに付与されません。 正しいことを確認してください",
+      "porn": {
+        "io": "動画の検索中にエラーが発生しました。 後でもう一度お試しください"
+      },
+      "roles": {
+        "no_args": "さらに引数を入力してください",
+        "no_join_role": "このコマンドの役割を教えてください"
+      },
+      "toggle_settings": {
+        "incorrect_arg": "このコマンドには正しい引数を選択する必要があります",
+        "no_args": "設定オプションの1つから引数を追加する必要があります"
+      },
+      "unban": {
+        "no_args": "ユーザー/ユーザーIDとこのコマンドの理由を入力してください"
+      }
+    },
+    "actions": {
+      "beers": {
+        "title": "乾杯",
+        "title_mention": "乾杯%s"
+      },
+      "beg": {
+        "title": "%sは頼む",
+        "title_mention": "%sは%sを頼む"
+      },
+      "bite": {
+        "title": "%sは皆を噛みます",
+        "title_mention": "%sは%sをかむ"
+      },
+      "cake": {
+        "title": "%sはケーキを食べて",
+        "title_mention": "%sが%sを養う"
+      },
+      "cookie": {
+        "title": "%sはクッキを与える",
+        "title_mention": "%sは%sにクッキを与える"
+      },
+      "cuddle": {
+        "title": "%sはみんなを抱きしめます",
+        "title_mention": "%sは%sを抱きしめます"
+      },
+      "description": "[画像へのリンク](%s)",
+      "gif": {
+        "title": "%sがみんなにGIFを贈る",
+        "no_args": "検索用語を入力してください。 複数の単語にすることもできます"
+      },
+      "glare": {
+        "title": "%sは皆を睨む",
+        "title_mention": "%sは%sを睨む "
+      },
+      "high_five": {
+        "title": "%sハイファイブみんな",
+        "title_mention": "%sハイファイブ%s"
+      },
+      "hug": {
+        "title": "%sは皆を抱擁します",
+        "title_mention": "%sハグ%s"
+      },
+      "kiss": {
+        "title": "%sはみんなにキス",
+        "title_mention": "%sキス%s"
+      },
+      "lick": {
+        "title": "%sはみんなをなめる",
+        "title_mention": "%sなめる%s"
+      },
+      "pat": {
+        "title": "%sはみんなをなでます",
+        "title_mention": "%sパット%s"
+      },
+      "poke": {
+        "title": "%sはみんなを突く",
+        "title_mention": "%sポーク%s"
+      },
+      "punch": {
+        "title": "%sはみんなをパンチします",
+        "title_mention": "%sパンチ%s"
+      },
+      "sass": {
+        "title": "%sはみんなをまとめる",
+        "title_mention": "%sサッセ%s"
+      },
+      "shank": {
+        "title": "%sはみんなをシャンク",
+        "title_mention": "%sスタブ%s"
+      },
+      "slap": {
+        "title": "%sはみんなを平手打ち",
+        "title_mention": "%sスラップ%s"
+      }
+    },
+    "anon": {
+      "blacklist": {
+        "message": "anonコマンドからのブラックリスト%s"
+      },
+      "no_anon": {
+        "message": "メンバー%sは、anonコマンドを使用してベントすることができなくなりました"
+      },
+      "remove_blacklist": {
+        "message": "anonブラックリストから%sを削除しました"
+      }
+    },
+    "destiny": {
+      "xur": {
+        "title": "Xurのインベントリ",
+        "description": "Xurの週末の在庫"
+      }
+    },
+    "misc": {
+      "dice": {
+        "critical_fail": "%sがd%dを振りました。 彼らは1を得ました。それは重大な失敗です！",
+        "nat_20": "%sがd%dを振りました。 彼らはNAT 20を手に入れました！",
+        "normal": "%sがd%dを振りました。 彼らは%dを得た"
+      },
+      "joined_guilds": {
+        "message": "私は現在%sサーバーにいます"
+      },
+      "reminder": {
+        "add": "%sにリマインダーを追加しました",
+        "no_args": "何もしないことを思い出させることはできません",
+        "no_reminders": "あなたはラッキーです。 リマインダーはありません",
+        "remove": "%sのリマインダー%sを削除しました",
+        "remove_no_args": "番号がないとリマインダーを削除できません",
+        "view": "%sのリマインダー"
+      },
+      "review": {
+        "title": "私を確認"
+      },
+      "support_server": {
+        "title": "サポートサーバーに招待する"
+      },
+      "uptime": {
+        "message": "現在の稼働時間は%dd:%dh:%dm:%dsです"
+      }
+    },
+    "moderation": {
+      "audit": {
+        "message": "監査ログは%sに送信されます"
+      },
+      "ban": {
+      	"is_self": "自分を禁止することはできません",
+      	"message": "メンバーは禁止されました"
+      },
+      "edit_welcome": {
+        "message": "ウェルカムメッセージが「%s」に変更されました"
+      },
+      "kick": {
+        "is_self": "私は自分を蹴ることができません",
+        "message": "メンバーがキックされました",
+        "reason": "理由: %s",
+        "title": "キックされたメンバー: %s"
+      },
+      "server_info": {
+        "created_at": "で作成: %s",
+        "members": {
+          "title": "Members",
+          "value": "サーバーの合計に%d個のメンバーがあります.\n**実際のメンバー:** %d\n**ボット:** %d"
+        },
+        "roles": {
+          "title": "役割",
+          "value": "サーバーには%d個の役割があります"
+        },
+        "boosters": {
+          "title": "ブースター",
+          "value": "%d人がブーストしました\nサーバーは層%sにあります"
+        }
+      },
+      "toggle_settings": {
+        "audit_disable": "監査メッセージが無効になっています",
+        "audit_enable": "監査メッセージが有効になりました",
+        "welcome_disable": "ウェルカムメッセージが無効になりました",
+        "welcome_enable": "ウェルカムメッセージが有効になりました"
+      },
+      "unban": {
+        "message": "禁止されていないメンバー"
+      },
+      "warn": {
+        "title": "%s警告",
+        "message": "%sは警告されました"
+      },
+      "welcome": {
+        "message": "ウェルカムメッセージが%sに送信されます"
+      }
+    },
+    "nsfw": {
+      "dom_or_sub": {
+        "dom": "%sはドム",
+        "sub": "%sはサブです"
+      },
+      "punishment": {
+        "description": "罰は: %s",
+        "duration": {
+          "title": "期間",
+          "spanking": "％ｓスマック",
+          "hours": "%s時間",
+          "days": "%s日",
+          "edges": "%sエッジ",
+          "ruins": "%sの廃墟",
+          "nothing": "本当に良かったことはありません",
+          "punishment": "罰"
+        },
+        "title": "%sの罰"
+      },
+      "toy": {
+        "title": "%sのおもちゃ",
+        "description": "おもちゃは: %s"
+      }
+    },
+    "roles": {
+      "add_dm": "％s に役割％sを追加しました",
+      "add_message": "追加された反応",
+      "dm_disable": "サーバーの役割DM設定が無効になっています",
+      "dm_enable": "有効なサーバーのロールDM設定",
+      "join_role_disable": "サーバーの無効化された役割",
+      "join_role_enable": "サーバーに設定されているロール%sに参加します :warning:**注:サーバーに設定できるロールは1つだけです**",
+      "remove_dm": "削除された役割: %s の %s",
+      "remove_message": "反応が削除されました",
+      "toggle_disable": "トグルを無効にするために更新された%sロール",
+      "toggle_enable": "トグルを有効にするために更新された%sロール"
+    }
+  }
+}

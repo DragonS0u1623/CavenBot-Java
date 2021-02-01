@@ -1,0 +1,290 @@
+{
+  "general": {
+    "invite": {
+      "title": "Invite me to your server"
+    },
+    "language": {
+      "guild_message": "Guild language set to %s",
+      "no_args": "Please provide a valid language for the bot to use",
+      "user_message": "%s language set to %s"
+    },
+    "member_ban": {
+      "title": "Member Banned: %s"
+    },
+    "member_join": {
+      "title": "Member Joined: %s",
+      "description": "Joined the server",
+      "joined_at": "Member joined at:",
+      "created_at": "Member Account Created:",
+      "young_account_warn": ":warning:Warning! This account is under 2 weeks old. Be careful!:warning:"
+    },
+    "member_leave": {
+      "title": "Member Left: %s",
+      "description": "Left the server",
+      "roles": "Roles at time:"
+    },
+    "member_unban": {
+      "title": "Member Unbanned: %s"
+    },
+    "ready": "CavenBot is now back online",
+    "role_add": {
+      "message": "Added role: %s in %s"
+    },
+    "role_remove": {
+      "message": "Removed role: %s in %s"
+    },
+    "shutdown": {
+      "message": "CavenBot is shutting down. We'll notify when it's back online"
+    }
+  },
+  "commands": {
+    "errors": {
+      "actions": {
+        "io_500": "Sorry but an unexpected server error occurred with TenorGIF API try again in a bit",
+        "io_general": "Sorry. An API error occurred while trying to find a gif",
+        "io": "Sorry. An error occurred while trying to find a gif"
+      },
+      "anon": {
+        "blacklisted": "That channel you requested was blacklisted. Please try another channel",
+        "not_member": "You have to be a member of the guild to send messages there",
+        "no_vent": "You have the No Vent role which prohibits you from using this command. Talk to an admin about getting it removed"
+      },
+      "ban": {
+        "cant_interact": "You don't have permission to ban this member",
+        "no_args": "Please give a user/userID and a reason for this command"
+      },
+      "destiny": {
+        "io": "Sorry. I couldn't retrieve Xur's inventory. Something went wrong",
+        "no_item_info": "I couldn't get the item info of Xur's inventory",
+        "vendor_not_here": "Can't get Xur's inventory. Xur isn't here yet, for his will is not his own"
+      },
+      "kick": {
+        "cant_interact": "You don't have permission to kick this member",
+        "no_args": "Please give a user/userID and a reason for this command"
+      },
+      "missing_permission": "I don't have permission to do that\n\n**Needed Perms**\n%s",
+      "no_child": "Please specify a valid child command. Use `m?%s help` to see all child commands and how to use them",
+      "no_channel": "Please mention a channel for this command",
+      "no_permission": "You don't have permission to use this command",
+      "no_user": "The user ID doesn't give a user. Please make sure it's correct",
+      "porn": {
+        "io": "Sorry an error has occurred trying to find a video. Please try again later"
+      },
+      "roles": {
+        "no_args": "Please enter more arguments",
+        "no_join_role": "Please mention a role for this command"
+      },
+      "toggle_settings": {
+        "incorrect_arg": "You need to choose a correct argument for this command.",
+        "no_args": "You need to add more arguments from one of the settings options."
+      },
+      "unban": {
+        "no_args": "Please give a user/userID and a reason for this command"
+      }
+    },
+    "actions": {
+      "beers": {
+        "title": "Cheers",
+        "title_mention": "Cheers %s"
+      },
+      "beg": {
+        "title": "%s begs",
+        "title_mention": "%s begs %s"
+      },
+      "bite": {
+        "title": "%s bites everyone",
+        "title_mention": "%s bites %s"
+      },
+      "cake": {
+        "title": "%s eats cake",
+        "title_mention": "%s feeds %s"
+      },
+      "cookie": {
+        "title": "%s gives a cookie",
+        "title_mention": "%s gives a cookie to %s"
+      },
+      "cuddle": {
+        "title": "%s cuddles everyone",
+        "title_mention": "%s cuddles %s"
+      },
+      "description": "[Link to image](%s)",
+      "gif": {
+        "title": "%s gives a gif to everyone",
+        "no_args": "Please enter a search term. It can be multiple words as well"
+      },
+      "glare": {
+        "title": "%s glares",
+        "title_mention": "%s glares at %s"
+      },
+      "high_five": {
+        "title": "%s high fives everyone",
+        "title_mention": "%s high fives %s"
+      },
+      "hug": {
+        "title": "%s hugs everyone",
+        "title_mention": "%s hugs %s"
+      },
+      "kiss": {
+        "title": "%s kisses everyone",
+        "title_mention": "%s kisses %s"
+      },
+      "lick": {
+        "title": "%s licks everyone",
+        "title_mention": "%s licks %s"
+      },
+      "pat": {
+        "title": "%s pats everyone",
+        "title_mention": "%s pats %s"
+      },
+      "poke": {
+        "title": "%s pokes everyone",
+        "title_mention": "%s pokes %s"
+      },
+      "punch": {
+        "title": "%s punches everyone",
+        "title_mention": "%s punches %s"
+      },
+      "sass": {
+        "title": "%s sasses everyone",
+        "title_mention": "%s sasses %s"
+      },
+      "shank": {
+        "title": "%s stabs everyone",
+        "title_mention": "%s stabs %s"
+      },
+      "slap": {
+        "title": "%s slaps everyone",
+        "title_mention": "%s slaps %s"
+      }
+    },
+    "anon": {
+      "blacklist": {
+        "message": "Blacklisted %s from the anon commands"
+      },
+      "no_anon": {
+        "message": "Member %s is no longer allowed to vent using the anon commands"
+      },
+      "remove_blacklist": {
+        "message": "Removed %s from the anon blacklist"
+      }
+    },
+    "destiny": {
+      "xur": {
+        "title": "Xur's Inventory",
+        "description": "Xur's inventory for the weekend of "
+      }
+    },
+    "misc": {
+      "dice": {
+        "critical_fail": "%s rolled a d%d. They got a %d. It's a critical fail!",
+        "nat_20": "%s rolled a d%d. They got a nat 20!",
+        "normal": "%s rolled a d%d. They got a %d"
+      },
+      "joined_guilds": {
+        "message": "I'm in %d servers currently"
+      },
+      "reminder": {
+        "add": "Reminder added for %s",
+        "no_args": "I can't remind you to do nothing",
+        "no_reminders": "Lucky you. You don't have any reminders",
+        "remove": "Removed reminder: %s for %s",
+        "remove_no_args": "I can't remove a reminder without a number",
+        "view": "Reminders for %s"
+      },
+      "review": {
+        "title": "Review Me"
+      },
+      "support_server": {
+        "title": "Invite to the Support Server"
+      },
+      "uptime": {
+        "message": "Current uptime is: %dd: %dh: %dm: %ds"
+      }
+    },
+    "moderation": {
+      "audit": {
+        "message": "Audit logs will be sent to %s"
+      },
+      "ban": {
+      	"is_self": "I can't ban myself",
+      	"message": "Member banned"
+      },
+      "edit_welcome": {
+        "message": "Welcome message changed to: \"%s\""
+      },
+      "kick": {
+        "is_self": "I can't kick myself",
+        "message": "Member kicked",
+        "reason": "Reason: %s",
+        "title": "Member Kicked: %s"
+      },
+      "server_info": {
+        "created_at": "Created at: %s",
+        "members": {
+          "title": "Members",
+          "value": "There are %d members in the server total\n**Actual Members:** %d\n**Bots:** %d"
+        },
+        "roles": {
+          "title": "Roles",
+          "value": "There are %d roles in the server"
+        },
+        "boosters": {
+          "title": "Boosters",
+          "value": "%d people have boosted\nThe server is at tier %s"
+        }
+      },
+      "toggle_settings": {
+        "audit_disable": "Audit messages have been disabled",
+        "audit_enable": "Audit messages have been enabled",
+        "welcome_disable": "Welcome messages have been disabled",
+        "welcome_enable": "Welcome messages have been enabled"
+      },
+      "unban": {
+        "message": "Member unbanned"
+      },
+      "warn": {
+        "title": "%s Warned",
+        "message": "%s has been warned"
+      },
+      "welcome": {
+        "message": "Welcome messages will be sent to %s"
+      }
+    },
+    "nsfw": {
+      "dom_or_sub": {
+        "dom": "%s is a dom",
+        "sub": "%s is a sub"
+      },
+      "punishment": {
+        "description": "Your punishment is: %s",
+        "duration": {
+          "title": "Duration",
+          "spanking": "%s smacks",
+          "hours": "%s hours",
+          "days": "%s days",
+          "edges": "%s edges",
+          "ruins": "%s ruins",
+          "nothing": "Nothing you've been really good",
+          "punishment": "Punishment"
+        },
+        "title": "%s's Punishment"
+      },
+      "toy": {
+        "title": "%s's Toy",
+        "description": "Your toy is: %s"
+      }
+    },
+    "roles": {
+      "add_dm": "Added role %s in %s",
+      "add_message": "Reaction added",
+      "dm_disable": "Role DM settings for the server disabled",
+      "dm_enable": "Role DM settings for the server enabled",
+      "join_role_disable": "Join role disabled for the server",
+      "join_role_enable": "Join role %s set for the server :warning:**Note: Only one role can be set for the server**",
+      "remove_dm": "Removed role: %s in %s",
+      "remove_message": "Reaction removed",
+      "toggle_disable": "%d roles updated to disable toggle",
+      "toggle_enable": "%d roles updated to enable toggle"
+    }
+  }
+}
